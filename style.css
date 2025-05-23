@@ -395,12 +395,127 @@ margin: 0;
   font-family: 'Playfair Display', serif;
 }
 .sponsor-title {
-  font-family: 'Tuffy';
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: #5a4a3a;
-  line-height: 1.6;
-  padding: 5px 15px;
-  position: relative
+  font-family: 'Tuffy', serif;
+  font-size: 1.2rem;
+  color: #d4a373;
+  margin: 25px 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 5px;
 }
 
+.sponsor-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 1px;
+  background-color: #d4a373;
+  opacity: 0.5;
+}
+
+.sponsor-single {
+  margin: 10px 0;
+}
+.sponsor-title-pair{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0;
+}
+.title-pair-name{
+    font-family: 'Tuffy', serif;
+    font-size: 1.2rem;
+    color: #d4a373;
+    margin: 25px 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 5px;
+}
+.title-pair-name:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #d4a373;
+    opacity: 0.5;
+}
+.title-pair-name-h2{
+  color: #d4a373;
+  margin: 25px 0 10px;;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.9rem;
+}
+.sponsor-title-h2{
+  color: #d4a373;
+  margin: 25px 0 10px;;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.9rem;
+}
+h3{
+  color: black;
+  margin: 25px 0 10px;;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.9rem;
+}
+.love-story {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.love-story h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: #d4a373;
+  margin-bottom: 30px;
+}
+
+.love-story-content {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #5a4a3a;
+}
+
+.love-story-content p {
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Decorative elements */
+.love-story:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background-color: #d4a373;
+  opacity: 0.5;
+}
+
+.love-story:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background-color: #d4a373;
+  opacity: 0.5;
+}
