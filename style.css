@@ -394,16 +394,6 @@ margin: 0;
   color: #d4a373;
   font-family: 'Playfair Display', serif;
 }
-
-.sponsor-single {
-  margin: 10px 0;
-}
-.secondary-sponsor {
-  display: flex;
-  justify-content: space-evenly; /* Distribute space between Veil/Card and the names */
-  margin: 15px auto; /* Add vertical margin and center the container */
-}
-
 .sponsor-title {
   font-family: 'Tuffy';
   font-weight: bold;
@@ -414,24 +404,3 @@ margin: 0;
   position: relative
 }
 
-.secondary-sponsor-name {
-  white-space: nowrap;
-  font-family: 'Tuffy';
-  font-size: 1.4rem;
-  color: #5a4a3a;
-  line-height: 1.6;
-  padding: 5px 15px;
-  position: relative
-}
-
-.secondary-sponsor-single {
-  margin: 10px 0;
-}
-.secondary-sponsor-title {
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: #5a4a3a;
-  line-height: 1.6;
-  padding: 5px 15px;
-  position: relative
-}
