@@ -561,6 +561,112 @@ h3{
     opacity: 0.7;
 }
 
+/* Blessing and Parents Section */
+.blessing-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.blessing-header {
+    margin-bottom: 40px;
+}
+
+.blessing-header p {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.8rem;
+    color: #d4a373;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.parents-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.parents-group {
+    flex: 1;
+    min-width: 250px;
+}
+
+.parents-group h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #5a4a3a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    position: relative;
+    font-weight: 400;
+}
+
+.parents-group h3:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 1px;
+    background-color: #d4a373;
+    opacity: 0.5;
+}
+
+.parent-names {
+    font-size: 1.2rem;
+    color: #5a4a3a;
+    line-height: 1.8;
+}
+
+.parent-names p {
+    margin: 12px 0;
+    font-family: 'Tuffy', serif;
+    font-size: 1.2rem;
+}
+
+/* Decorative elements */
+.blessing-section:before {
+    content: "✝";
+    color: #d4a373;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto 30px;
+    opacity: 0.6;
+}
+
+.blessing-section:after {
+    content: "✝";
+    color: #d4a373;
+    font-size: 1.5rem;
+    display: block;
+    margin: 30px auto 0;
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    .blessing-header p {
+        font-size: 1.5rem;
+    }
+    
+    .parents-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .parents-group {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
 
 
     
