@@ -73,6 +73,7 @@ p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
+  font-family: "Tuffy", serif;
 }
 
 .names {
@@ -483,7 +484,7 @@ h3{
 
 .love-story-content {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Tuffy', serif;
   line-height: 1.8;
   font-size: 1.1rem;
   color: #5a4a3a;
