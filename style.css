@@ -400,7 +400,7 @@ margin: 0;
 }
 .secondary-sponsor {
   display: flex;
-  justify-content: space-between; /* Distribute space between Veil/Card and the names */
+  justify-content: space-evenly; /* Distribute space between Veil/Card and the names */
   margin: 15px auto; /* Add vertical margin and center the container */
 }
 
