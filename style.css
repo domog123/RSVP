@@ -632,7 +632,7 @@ h3{
 
 /* Decorative elements */
 .blessing-section:before {
-    content: "✝";
+    content: "";
     color: #d4a373;
     font-size: 1.5rem;
     display: block;
@@ -641,7 +641,7 @@ h3{
 }
 
 .blessing-section:after {
-    content: "✝";
+    content: "";
     color: #d4a373;
     font-size: 1.5rem;
     display: block;
